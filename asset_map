@@ -1,0 +1,216 @@
+// Asset Map (Read-Only)
+// Edit assets in the Media tab.
+// Use these IDs alongside lib to reference assets in your code:
+//
+// Example: lib.getAsset["player_sprite"]
+
+const assets = {
+  "boxwise_mascot": {
+    "url": "../src/main.png",
+    "type": "image",
+    "aspect_ratio": [
+      521,
+      1092
+    ]
+  },
+  "boxwise_world_map_parchment": {
+    "url": "../src/environment.png",
+    "type": "image",
+    "aspect_ratio": [
+      848,
+      1264
+    ]
+  },
+  "chaos_sprite": {
+    "url": "../src/chaos_sprite.png",
+    "type": "image",
+    "aspect_ratio": [
+      719,
+      1154
+    ]
+  },
+  "correct_sort_chime": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/correct_sort_chime_669039fc-ad5e-4c32-8d48-5305cea0e94d.mp3",
+    "type": "audio"
+  },
+  "gentle_miss_cue": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/effect/gentle_miss_cue_b2f86f47-2792-42e3-8900-a0a9589e8fc1.mp3",
+    "type": "audio"
+  },
+  "level_complete_sting": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/music/level_complete_sting_16688ba6-75df-48f9-9c3e-2e17394709d3.mp3",
+    "type": "audio"
+  },
+  "boxwise_gameplay_classroom_bg": {
+    "url": "../src/mathcorner.png",
+    "type": "image",
+    "aspect_ratio": [
+      360,
+      800
+    ]
+  },
+  "boxwise_gameplay_mascot": {
+    "url": "../src/main.png",
+    "type": "image",
+    "aspect_ratio": [
+      421,
+      593
+    ]
+  },
+  "boxwise_gameplay_banner": {
+    "url": "../src/banner.png",
+    "type": "image",
+    "aspect_ratio": [
+      863,
+      289
+    ]
+  },
+  "boxwise_sorting_box_left": {
+    "url": "../src/box1.png",
+    "type": "image",
+    "aspect_ratio": [
+      466,
+      536
+    ]
+  },
+  "boxwise_sorting_box_right": {
+    "url": "../src/box2.png",
+    "type": "image",
+    "aspect_ratio": [
+      499,
+      499
+    ]
+  },
+  "boxwise_inventory_button_art": {
+    "url": "../src/inventory.jpg",
+    "type": "image",
+    "aspect_ratio": [
+      380,
+      422
+    ]
+  },
+  "boxwise_store_button_art": {
+    "url": "../src/store.jpg",
+    "type": "image",
+    "aspect_ratio": [
+      382,
+      420
+    ]
+  },
+  "boxwise_gift_button_art": {
+    "url": "../src/gift.jpg",
+    "type": "image",
+    "aspect_ratio": [
+      382,
+      425
+    ]
+  },
+  "image.png": {
+    "url": "../src/image.png",
+    "type": "image",
+    "aspect_ratio": [
+      382,
+      420
+    ]
+  },
+  "boxwise_math_corner_level_map_background": {
+    "url": "../src/mathcorner.png",
+    "type": "image",
+    "aspect_ratio": [
+      940,
+      1672
+    ]
+  },
+  "boxwise_nutrition_zone_level_map_background": {
+    "url": "../src/nutritionlevelmap.png",
+    "type": "image",
+    "aspect_ratio": [
+      940,
+      1672
+    ]
+  },
+  "boxwise_animals_nature_level_map_background": {
+    "url": "../src/naturelevelmap.png",
+    "type": "image",
+    "aspect_ratio": [
+      941,
+      1672
+    ]
+  },
+  "boxwise_world_map_watercolor_background": {
+    "url": "../src/environment.png",
+    "type": "image",
+    "aspect_ratio": [
+      940,
+      1672
+    ]
+  },
+  "boxwise_nature_gameplay_background": {
+    "url": "../src/naturemain.png",
+    "type": "image",
+    "aspect_ratio": [
+      941,
+      1671
+    ]
+  },
+  "Healthy Choices Farm Market.png": {
+    "url": "../src/nutritionmain.png",
+    "type": "image",
+    "aspect_ratio": [
+      940,
+      1672
+    ]
+  },
+  "boxwise_math_gameplay_background": {
+    "url": "../src/mathmain.png",
+    "type": "image",
+    "aspect_ratio": [
+      941,
+      1672
+    ]
+  },
+  "boxwise_background_music": {
+    "url": "https://d2oir5eh8rty2e.cloudfront.net/assets/sounds/music/boxwise_background_music_641fb843-6321-49c4-bd8e-eedf7a73a34c.mp3",
+    "type": "audio"
+  },
+  "boxwise_character_reference_teacher": {
+    "url": "../src/teacher.png",
+    "type": "image",
+    "aspect_ratio": [
+      633,
+      392
+    ]
+  },
+  "boxwise_character_reference_sidekicks": {
+    "url": "../src/sidekicks.png",
+    "type": "image",
+    "aspect_ratio": [
+      613,
+      683
+    ]
+  },
+  "boxwise_ms_wise_character": {
+    "url": "../src/Ms.Wise.png",
+    "type": "image",
+    "aspect_ratio": [
+      533,
+      1261
+    ]
+  },
+  "boxwise_sparky_character": {
+    "url": "../src/Sparky.png",
+    "type": "image",
+    "aspect_ratio": [
+      570,
+      541
+    ]
+  },
+  "boxwise_gifty_character": {
+    "url": "../src/Gifty.png",
+    "type": "image",
+    "aspect_ratio": [
+      670,
+      668
+    ]
+  }
+};

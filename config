@@ -1,0 +1,2020 @@
+{
+  "levelTitle": "Odd or Even?",
+  "briefingText": "Sort each number into the right box. ",
+  "digits": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "oddLabel": "Odd",
+  "evenLabel": "Even",
+  "cardBg": "#ffffff",
+  "oddColor": "#ff6b6b",
+  "evenColor": "#4ecdc4",
+  "correctMsg": "✨ Correct!",
+  "wrongMsg": "Not quite!",
+  "worlds": [
+    {
+      "id": "math",
+      "name": "Math Corner",
+      "subtitle": "Number trails & shape puzzles",
+      "accent": "#edaa38",
+      "background": "boxwise_math_gameplay_background",
+      "levels": [
+        {
+          "title": "Basic Number Sorting",
+          "briefing": "Welcome to Math Corner! Sort each single digit into Odd or Even.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Odd",
+            "Even"
+          ],
+          "cards": [
+            [
+              "0",
+              "Even",
+              "0️⃣"
+            ],
+            [
+              "1",
+              "Odd",
+              "1️⃣"
+            ],
+            [
+              "2",
+              "Even",
+              "2️⃣"
+            ],
+            [
+              "3",
+              "Odd",
+              "3️⃣"
+            ],
+            [
+              "4",
+              "Even",
+              "4️⃣"
+            ],
+            [
+              "5",
+              "Odd",
+              "5️⃣"
+            ],
+            [
+              "6",
+              "Even",
+              "6️⃣"
+            ],
+            [
+              "7",
+              "Odd",
+              "7️⃣"
+            ],
+            [
+              "8",
+              "Even",
+              "8️⃣"
+            ],
+            [
+              "9",
+              "Odd",
+              "9️⃣"
+            ]
+          ]
+        },
+        {
+          "title": "Shape Recognition",
+          "briefing": "Look closely at each shape, then send it to its matching shape box.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Circle",
+            "Square",
+            "Triangle"
+          ],
+          "cards": [
+            [
+              "● Circle",
+              "Circle",
+              "🔵"
+            ],
+            [
+              "■ Square",
+              "Square",
+              "🟦"
+            ],
+            [
+              "▲ Triangle",
+              "Triangle",
+              "🔺"
+            ],
+            [
+              "○ Circle",
+              "Circle",
+              "⚪"
+            ],
+            [
+              "□ Square",
+              "Square",
+              "⬜"
+            ],
+            [
+              "△ Triangle",
+              "Triangle",
+              "🔺"
+            ]
+          ]
+        },
+        {
+          "title": "Quantity Comparison",
+          "briefing": "Count the dots on each card. Is the group smaller than five, or five and up?",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Less than 5",
+            "5 or More"
+          ],
+          "cards": [
+            [
+              "● ●",
+              "Less than 5",
+              "⚫"
+            ],
+            [
+              "● ● ● ●",
+              "Less than 5",
+              "⚫"
+            ],
+            [
+              "● ● ● ● ●",
+              "5 or More",
+              "⚫"
+            ],
+            [
+              "● ● ● ● ● ●",
+              "5 or More",
+              "⚫"
+            ],
+            [
+              "● ● ●",
+              "Less than 5",
+              "⚫"
+            ],
+            [
+              "● ● ● ● ● ● ●",
+              "5 or More",
+              "⚫"
+            ]
+          ]
+        },
+        {
+          "title": "Simple Addition",
+          "briefing": "Add the two numbers on each card and choose the box with that sum.",
+          "mechanic": "sorting",
+          "timer": 55,
+          "movementSpeed": 1,
+          "bins": [
+            "Sum = 2",
+            "Sum = 3",
+            "Sum = 4",
+            "Sum = 5"
+          ],
+          "cards": [
+            [
+              "1 + 1",
+              "Sum = 2",
+              "➕"
+            ],
+            [
+              "1 + 2",
+              "Sum = 3",
+              "➕"
+            ],
+            [
+              "2 + 2",
+              "Sum = 4",
+              "➕"
+            ],
+            [
+              "2 + 3",
+              "Sum = 5",
+              "➕"
+            ],
+            [
+              "1 + 3",
+              "Sum = 4",
+              "➕"
+            ],
+            [
+              "1 + 4",
+              "Sum = 5",
+              "➕"
+            ]
+          ]
+        },
+        {
+          "title": "Multi-Category Numbers",
+          "briefing": "Sort zero into its own box, then separate the odd and even numbers. Take your time!",
+          "mechanic": "sorting",
+          "timer": 90,
+          "movementSpeed": 1,
+          "bins": [
+            "Odd",
+            "Even",
+            "Zero"
+          ],
+          "cards": [
+            [
+              "0",
+              "Zero",
+              "0️⃣"
+            ],
+            [
+              "2",
+              "Even",
+              "2️⃣"
+            ],
+            [
+              "3",
+              "Odd",
+              "3️⃣"
+            ],
+            [
+              "8",
+              "Even",
+              "8️⃣"
+            ],
+            [
+              "7",
+              "Odd",
+              "7️⃣"
+            ],
+            [
+              "10",
+              "Even",
+              "🔟"
+            ]
+          ]
+        },
+        {
+          "title": "Pattern Completion",
+          "briefing": "Read each number pattern and place it with the matching skip-counting sequence.",
+          "mechanic": "sequence",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Count by 2s",
+            "Count by 5s"
+          ],
+          "cards": [
+            [
+              "2, 4, __, 8",
+              "Count by 2s",
+              "🔢"
+            ],
+            [
+              "5, 10, __, 20",
+              "Count by 5s",
+              "🔢"
+            ],
+            [
+              "10, 12, __, 16",
+              "Count by 2s",
+              "🔢"
+            ],
+            [
+              "15, 20, __, 30",
+              "Count by 5s",
+              "🔢"
+            ],
+            [
+              "4, 6, __, 10",
+              "Count by 2s",
+              "🔢"
+            ],
+            [
+              "20, 25, __, 35",
+              "Count by 5s",
+              "🔢"
+            ]
+          ]
+        },
+        {
+          "title": "Simple Subtraction",
+          "briefing": "Solve each subtraction card. Sort results that are above zero or exactly zero.",
+          "mechanic": "sorting",
+          "timer": 55,
+          "movementSpeed": 1,
+          "bins": [
+            "Positive Result",
+            "Zero Result"
+          ],
+          "cards": [
+            [
+              "3 − 1",
+              "Positive Result",
+              "➖"
+            ],
+            [
+              "5 − 2",
+              "Positive Result",
+              "➖"
+            ],
+            [
+              "4 − 4",
+              "Zero Result",
+              "➖"
+            ],
+            [
+              "2 − 2",
+              "Zero Result",
+              "➖"
+            ],
+            [
+              "6 − 1",
+              "Positive Result",
+              "➖"
+            ],
+            [
+              "7 − 7",
+              "Zero Result",
+              "➖"
+            ]
+          ]
+        },
+        {
+          "title": "Rapid Sorting",
+          "briefing": "Quickly compare each number with ten and drop it in the matching box!",
+          "mechanic": "conveyor",
+          "timer": 35,
+          "movementSpeed": 1.6,
+          "bins": [
+            "Less than 10",
+            "Greater than 10"
+          ],
+          "cards": [
+            [
+              "4",
+              "Less than 10",
+              "4️⃣"
+            ],
+            [
+              "12",
+              "Greater than 10",
+              "🔢"
+            ],
+            [
+              "8",
+              "Less than 10",
+              "8️⃣"
+            ],
+            [
+              "16",
+              "Greater than 10",
+              "🔢"
+            ],
+            [
+              "3",
+              "Less than 10",
+              "3️⃣"
+            ],
+            [
+              "19",
+              "Greater than 10",
+              "🔢"
+            ],
+            [
+              "11",
+              "Greater than 10",
+              "🔢"
+            ],
+            [
+              "6",
+              "Less than 10",
+              "6️⃣"
+            ]
+          ]
+        },
+        {
+          "title": "Multiples & Skip Counting",
+          "briefing": "Notice which numbers are in the twos-times table and which are in the fives-times table.",
+          "mechanic": "sorting",
+          "timer": 55,
+          "movementSpeed": 1,
+          "bins": [
+            "Multiples of 2",
+            "Multiples of 5"
+          ],
+          "cards": [
+            [
+              "6",
+              "Multiples of 2",
+              "6️⃣"
+            ],
+            [
+              "15",
+              "Multiples of 5",
+              "🔢"
+            ],
+            [
+              "8",
+              "Multiples of 2",
+              "8️⃣"
+            ],
+            [
+              "25",
+              "Multiples of 5",
+              "🔢"
+            ],
+            [
+              "12",
+              "Multiples of 2",
+              "🔢"
+            ],
+            [
+              "35",
+              "Multiples of 5",
+              "🔢"
+            ]
+          ]
+        },
+        {
+          "title": "Fractions: Visual",
+          "briefing": "Look at how much pizza is shown: one half or one whole pizza?",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Half (1/2)",
+            "Whole (1)"
+          ],
+          "cards": [
+            [
+              "◐",
+              "Half (1/2)",
+              "🍕"
+            ],
+            [
+              "◕",
+              "Half (1/2)",
+              "🍕"
+            ],
+            [
+              "●",
+              "Whole (1)",
+              "🍕"
+            ],
+            [
+              "◉",
+              "Whole (1)",
+              "🍕"
+            ],
+            [
+              "◐",
+              "Half (1/2)",
+              "🍕"
+            ],
+            [
+              "●",
+              "Whole (1)",
+              "🍕"
+            ]
+          ]
+        },
+        {
+          "title": "Moving Targets",
+          "briefing": "Number blocks drift across the page. Catch each one before it floats away and sort it.",
+          "mechanic": "moving-item",
+          "timer": 50,
+          "movementSpeed": 1.4,
+          "bins": [
+            "Odd",
+            "Even"
+          ],
+          "cards": [
+            [
+              "13",
+              "Odd",
+              "🔢"
+            ],
+            [
+              "18",
+              "Even",
+              "🔢"
+            ],
+            [
+              "7",
+              "Odd",
+              "7️⃣"
+            ],
+            [
+              "22",
+              "Even",
+              "🔢"
+            ],
+            [
+              "9",
+              "Odd",
+              "9️⃣"
+            ],
+            [
+              "14",
+              "Even",
+              "🔢"
+            ],
+            [
+              "5",
+              "Odd",
+              "5️⃣"
+            ],
+            [
+              "20",
+              "Even",
+              "🔢"
+            ]
+          ]
+        },
+        {
+          "title": "Distractor Challenge",
+          "briefing": "The Chaos Sprite mixed in letter blocks! Sort the numbers and send letters to Silly Letters.",
+          "mechanic": "distractor",
+          "timer": 60,
+          "movementSpeed": 1,
+          "bins": [
+            "Numbers",
+            "Silly Letters"
+          ],
+          "cards": [
+            [
+              "8",
+              "Numbers",
+              "8️⃣"
+            ],
+            [
+              "A",
+              "Silly Letters",
+              "🔠"
+            ],
+            [
+              "3",
+              "Numbers",
+              "3️⃣"
+            ],
+            [
+              "K",
+              "Silly Letters",
+              "🔠"
+            ],
+            [
+              "0",
+              "Numbers",
+              "0️⃣"
+            ],
+            [
+              "M",
+              "Silly Letters",
+              "🔠"
+            ],
+            [
+              "7",
+              "Numbers",
+              "7️⃣"
+            ],
+            [
+              "B",
+              "Silly Letters",
+              "🔠"
+            ]
+          ]
+        },
+        {
+          "title": "Multi-Box Math Blitz",
+          "briefing": "Choose the best home for each number: even, odd, a multiple of three, or greater than twenty.",
+          "mechanic": "multi-category",
+          "timer": 60,
+          "movementSpeed": 1.2,
+          "bins": [
+            "Evens",
+            "Odds",
+            "Multiples of 3",
+            "Greater than 20"
+          ],
+          "cards": [
+            [
+              "4",
+              "Evens",
+              "4️⃣"
+            ],
+            [
+              "7",
+              "Odds",
+              "7️⃣"
+            ],
+            [
+              "9",
+              "Multiples of 3",
+              "9️⃣"
+            ],
+            [
+              "24",
+              "Greater than 20",
+              "🔢"
+            ],
+            [
+              "6",
+              "Multiples of 3",
+              "6️⃣"
+            ],
+            [
+              "11",
+              "Odds",
+              "🔢"
+            ],
+            [
+              "8",
+              "Evens",
+              "8️⃣"
+            ],
+            [
+              "30",
+              "Greater than 20",
+              "🔢"
+            ]
+          ]
+        },
+        {
+          "title": "Math Corner Boss",
+          "briefing": "A rapid-fire mix of equations and numbers! You have three gentle retries before the cards reshuffle.",
+          "mechanic": "boss",
+          "timer": 45,
+          "movementSpeed": 1.5,
+          "strikes": 3,
+          "bins": [
+            "Odd",
+            "Even",
+            "Sum = 5"
+          ],
+          "cards": [
+            [
+              "7",
+              "Odd",
+              "7️⃣"
+            ],
+            [
+              "2 + 2",
+              "Even",
+              "➕"
+            ],
+            [
+              "3 + 2",
+              "Sum = 5",
+              "➕"
+            ],
+            [
+              "9",
+              "Odd",
+              "9️⃣"
+            ],
+            [
+              "6",
+              "Even",
+              "6️⃣"
+            ],
+            [
+              "1 + 4",
+              "Sum = 5",
+              "➕"
+            ],
+            [
+              "11",
+              "Odd",
+              "🔢"
+            ],
+            [
+              "8",
+              "Even",
+              "8️⃣"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nutrition",
+      "name": "Nutrition Zone",
+      "subtitle": "A tasty trip through the market",
+      "accent": "#55a84f",
+      "background": "Healthy Choices Farm Market.png",
+      "levels": [
+        {
+          "title": "Fruits vs. Vegetables",
+          "briefing": "Visit the market! Sort each fresh fruit or vegetable into its produce box.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Fruits",
+            "Vegetables"
+          ],
+          "cards": [
+            [
+              "Apple",
+              "Fruits",
+              "🍎"
+            ],
+            [
+              "Carrot",
+              "Vegetables",
+              "🥕"
+            ],
+            [
+              "Banana",
+              "Fruits",
+              "🍌"
+            ],
+            [
+              "Broccoli",
+              "Vegetables",
+              "🥦"
+            ],
+            [
+              "Pear",
+              "Fruits",
+              "🍐"
+            ],
+            [
+              "Corn",
+              "Vegetables",
+              "🌽"
+            ]
+          ]
+        },
+        {
+          "title": "Healthy vs. Treats",
+          "briefing": "Which snacks help fuel your day, and which are just occasional treats?",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Healthy Snacks",
+            "Treats"
+          ],
+          "cards": [
+            [
+              "Apple",
+              "Healthy Snacks",
+              "🍎"
+            ],
+            [
+              "Carrot",
+              "Healthy Snacks",
+              "🥕"
+            ],
+            [
+              "Candy",
+              "Treats",
+              "🍬"
+            ],
+            [
+              "Soda",
+              "Treats",
+              "🥤"
+            ],
+            [
+              "Yogurt",
+              "Healthy Snacks",
+              "🥣"
+            ],
+            [
+              "Cupcake",
+              "Treats",
+              "🧁"
+            ]
+          ]
+        },
+        {
+          "title": "Color-Based Food Sort",
+          "briefing": "Sort the colorful foods by their main color: red, green, or yellow.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Red",
+            "Green",
+            "Yellow"
+          ],
+          "cards": [
+            [
+              "Tomato",
+              "Red",
+              "🍅"
+            ],
+            [
+              "Spinach",
+              "Green",
+              "🥬"
+            ],
+            [
+              "Lemon",
+              "Yellow",
+              "🍋"
+            ],
+            [
+              "Strawberry",
+              "Red",
+              "🍓"
+            ],
+            [
+              "Peas",
+              "Green",
+              "🫛"
+            ],
+            [
+              "Banana",
+              "Yellow",
+              "🍌"
+            ]
+          ]
+        },
+        {
+          "title": "Dairy & Grains",
+          "briefing": "Milk and cheese come from dairy; bread and rice belong with grains.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Dairy",
+            "Grains"
+          ],
+          "cards": [
+            [
+              "Milk",
+              "Dairy",
+              "🥛"
+            ],
+            [
+              "Bread",
+              "Grains",
+              "🍞"
+            ],
+            [
+              "Cheese",
+              "Dairy",
+              "🧀"
+            ],
+            [
+              "Rice",
+              "Grains",
+              "🍚"
+            ],
+            [
+              "Yogurt",
+              "Dairy",
+              "🥣"
+            ],
+            [
+              "Oats",
+              "Grains",
+              "🌾"
+            ]
+          ]
+        },
+        {
+          "title": "Proteins vs. Produce",
+          "briefing": "Find the protein foods, then sort the fruits and vegetables together.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Proteins",
+            "Fruits & Veggies"
+          ],
+          "cards": [
+            [
+              "Fish",
+              "Proteins",
+              "🐟"
+            ],
+            [
+              "Apple",
+              "Fruits & Veggies",
+              "🍎"
+            ],
+            [
+              "Egg",
+              "Proteins",
+              "🥚"
+            ],
+            [
+              "Broccoli",
+              "Fruits & Veggies",
+              "🥦"
+            ],
+            [
+              "Beans",
+              "Proteins",
+              "🫘"
+            ],
+            [
+              "Orange",
+              "Fruits & Veggies",
+              "🍊"
+            ]
+          ]
+        },
+        {
+          "title": "Where Food Comes From",
+          "briefing": "Some foods grow on plants; others come from animals. Sort by their source.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Plants",
+            "Animals"
+          ],
+          "cards": [
+            [
+              "Apple",
+              "Plants",
+              "🍎"
+            ],
+            [
+              "Milk",
+              "Animals",
+              "🥛"
+            ],
+            [
+              "Rice",
+              "Plants",
+              "🍚"
+            ],
+            [
+              "Egg",
+              "Animals",
+              "🥚"
+            ],
+            [
+              "Carrot",
+              "Plants",
+              "🥕"
+            ],
+            [
+              "Cheese",
+              "Animals",
+              "🧀"
+            ]
+          ]
+        },
+        {
+          "title": "Mealtime Sorting",
+          "briefing": "Pack a breakfast tray and a dinner plate by sorting each food to the meal it suits.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Breakfast",
+            "Dinner"
+          ],
+          "cards": [
+            [
+              "Pancakes",
+              "Breakfast",
+              "🥞"
+            ],
+            [
+              "Soup",
+              "Dinner",
+              "🍲"
+            ],
+            [
+              "Cereal",
+              "Breakfast",
+              "🥣"
+            ],
+            [
+              "Roast Veggies",
+              "Dinner",
+              "🥘"
+            ],
+            [
+              "Toast",
+              "Breakfast",
+              "🍞"
+            ],
+            [
+              "Pasta",
+              "Dinner",
+              "🍝"
+            ]
+          ]
+        },
+        {
+          "title": "Conveyor Speed Sort",
+          "briefing": "Market groceries roll down the conveyor. Sort produce from packaged pantry foods in time.",
+          "mechanic": "conveyor",
+          "timer": 40,
+          "movementSpeed": 1.7,
+          "bins": [
+            "Fresh Produce",
+            "Packaged Foods"
+          ],
+          "cards": [
+            [
+              "Apple",
+              "Fresh Produce",
+              "🍎"
+            ],
+            [
+              "Cereal Box",
+              "Packaged Foods",
+              "🥣"
+            ],
+            [
+              "Carrot",
+              "Fresh Produce",
+              "🥕"
+            ],
+            [
+              "Pasta Box",
+              "Packaged Foods",
+              "🍝"
+            ],
+            [
+              "Pear",
+              "Fresh Produce",
+              "🍐"
+            ],
+            [
+              "Crackers",
+              "Packaged Foods",
+              "🍘"
+            ],
+            [
+              "Tomato",
+              "Fresh Produce",
+              "🍅"
+            ],
+            [
+              "Rice Bag",
+              "Packaged Foods",
+              "🍚"
+            ]
+          ]
+        },
+        {
+          "title": "Taste Profile",
+          "briefing": "Think about the main taste of each food: sweet, salty, or sour.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Sweet",
+            "Salty",
+            "Sour"
+          ],
+          "cards": [
+            [
+              "Honey",
+              "Sweet",
+              "🍯"
+            ],
+            [
+              "Pretzels",
+              "Salty",
+              "🥨"
+            ],
+            [
+              "Lemon",
+              "Sour",
+              "🍋"
+            ],
+            [
+              "Grapes",
+              "Sweet",
+              "🍇"
+            ],
+            [
+              "Chips",
+              "Salty",
+              "🍟"
+            ],
+            [
+              "Lime",
+              "Sour",
+              "🍈"
+            ]
+          ]
+        },
+        {
+          "title": "Solid vs. Liquid",
+          "briefing": "Sort foods you can hold as solids from drinks and other liquids.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Solid Foods",
+            "Liquids"
+          ],
+          "cards": [
+            [
+              "Bread",
+              "Solid Foods",
+              "🍞"
+            ],
+            [
+              "Water",
+              "Liquids",
+              "💧"
+            ],
+            [
+              "Cheese",
+              "Solid Foods",
+              "🧀"
+            ],
+            [
+              "Milk",
+              "Liquids",
+              "🥛"
+            ],
+            [
+              "Carrot",
+              "Solid Foods",
+              "🥕"
+            ],
+            [
+              "Juice",
+              "Liquids",
+              "🧃"
+            ]
+          ]
+        },
+        {
+          "title": "Spoiled Food Filter",
+          "briefing": "Keep fresh food in the basket and discard the spoiled items in the compost bin.",
+          "mechanic": "distractor",
+          "timer": 55,
+          "movementSpeed": 1.1,
+          "bins": [
+            "Fresh Food",
+            "Compost"
+          ],
+          "cards": [
+            [
+              "Fresh Apple",
+              "Fresh Food",
+              "🍎"
+            ],
+            [
+              "Rotten Banana",
+              "Compost",
+              "🍌"
+            ],
+            [
+              "Fresh Carrot",
+              "Fresh Food",
+              "🥕"
+            ],
+            [
+              "Moldy Bread",
+              "Compost",
+              "🍞"
+            ],
+            [
+              "Fresh Pear",
+              "Fresh Food",
+              "🍐"
+            ],
+            [
+              "Spoiled Milk",
+              "Compost",
+              "🥛"
+            ],
+            [
+              "Fresh Corn",
+              "Fresh Food",
+              "🌽"
+            ]
+          ]
+        },
+        {
+          "title": "Paired Foods",
+          "briefing": "Market foods arrive in little pairs. Sort each card carefully; its partner follows right after.",
+          "mechanic": "paired-item",
+          "timer": 65,
+          "movementSpeed": 1.15,
+          "bins": [
+            "Fruits",
+            "Vegetables"
+          ],
+          "cards": [
+            [
+              "Apple · Pair 1",
+              "Fruits",
+              "🍎"
+            ],
+            [
+              "Carrot · Pair 1",
+              "Vegetables",
+              "🥕"
+            ],
+            [
+              "Pear · Pair 2",
+              "Fruits",
+              "🍐"
+            ],
+            [
+              "Corn · Pair 2",
+              "Vegetables",
+              "🌽"
+            ],
+            [
+              "Grapes · Pair 3",
+              "Fruits",
+              "🍇"
+            ],
+            [
+              "Broccoli · Pair 3",
+              "Vegetables",
+              "🥦"
+            ]
+          ]
+        },
+        {
+          "title": "4-Plate Balanced Diet",
+          "briefing": "Build a balanced meal by sorting each food into its group: protein, grains, fruit, or vegetables.",
+          "mechanic": "multi-category",
+          "timer": 60,
+          "movementSpeed": 1,
+          "bins": [
+            "Proteins",
+            "Grains",
+            "Fruits",
+            "Vegetables"
+          ],
+          "cards": [
+            [
+              "Egg",
+              "Proteins",
+              "🥚"
+            ],
+            [
+              "Rice",
+              "Grains",
+              "🍚"
+            ],
+            [
+              "Apple",
+              "Fruits",
+              "🍎"
+            ],
+            [
+              "Peas",
+              "Vegetables",
+              "🫛"
+            ],
+            [
+              "Fish",
+              "Proteins",
+              "🐟"
+            ],
+            [
+              "Bread",
+              "Grains",
+              "🍞"
+            ],
+            [
+              "Pear",
+              "Fruits",
+              "🍐"
+            ],
+            [
+              "Carrot",
+              "Vegetables",
+              "🥕"
+            ]
+          ]
+        },
+        {
+          "title": "Nutrition Zone Boss",
+          "briefing": "Rapid market rush! Sort raw ingredients, cooked dishes, and packaged foods before time runs out.",
+          "mechanic": "boss",
+          "timer": 40,
+          "movementSpeed": 1.7,
+          "strikes": 3,
+          "bins": [
+            "Raw Ingredients",
+            "Cooked Foods",
+            "Packaged Foods"
+          ],
+          "cards": [
+            [
+              "Raw Carrot",
+              "Raw Ingredients",
+              "🥕"
+            ],
+            [
+              "Soup",
+              "Cooked Foods",
+              "🍲"
+            ],
+            [
+              "Cereal Box",
+              "Packaged Foods",
+              "🥣"
+            ],
+            [
+              "Raw Egg",
+              "Raw Ingredients",
+              "🥚"
+            ],
+            [
+              "Pasta",
+              "Cooked Foods",
+              "🍝"
+            ],
+            [
+              "Crackers",
+              "Packaged Foods",
+              "🍘"
+            ],
+            [
+              "Tomato",
+              "Raw Ingredients",
+              "🍅"
+            ],
+            [
+              "Rice Bowl",
+              "Cooked Foods",
+              "🍚"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nature",
+      "name": "Animals & Nature",
+      "subtitle": "Explore habitats and living things",
+      "accent": "#3c9ac2",
+      "background": "boxwise_nature_gameplay_background",
+      "levels": [
+        {
+          "title": "Land vs. Water",
+          "briefing": "Follow the nature trail! Sort each animal into its land or water home.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Land Animals",
+            "Water Animals"
+          ],
+          "cards": [
+            [
+              "Lion",
+              "Land Animals",
+              "🦁"
+            ],
+            [
+              "Dolphin",
+              "Water Animals",
+              "🐬"
+            ],
+            [
+              "Elephant",
+              "Land Animals",
+              "🐘"
+            ],
+            [
+              "Octopus",
+              "Water Animals",
+              "🐙"
+            ],
+            [
+              "Fox",
+              "Land Animals",
+              "🦊"
+            ],
+            [
+              "Turtle",
+              "Water Animals",
+              "🐢"
+            ]
+          ]
+        },
+        {
+          "title": "Wild vs. Domestic",
+          "briefing": "Some animals live with people; others belong in the wild. Find each one's group.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Farm & Pet",
+            "Wild & Jungle"
+          ],
+          "cards": [
+            [
+              "Dog",
+              "Farm & Pet",
+              "🐕"
+            ],
+            [
+              "Tiger",
+              "Wild & Jungle",
+              "🐅"
+            ],
+            [
+              "Cow",
+              "Farm & Pet",
+              "🐄"
+            ],
+            [
+              "Monkey",
+              "Wild & Jungle",
+              "🐒"
+            ],
+            [
+              "Cat",
+              "Farm & Pet",
+              "🐈"
+            ],
+            [
+              "Zebra",
+              "Wild & Jungle",
+              "🦓"
+            ]
+          ]
+        },
+        {
+          "title": "Fly vs. Walk",
+          "briefing": "Sort creatures that can fly into one box and those that cannot into the other.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Can Fly",
+            "Cannot Fly"
+          ],
+          "cards": [
+            [
+              "Robin",
+              "Can Fly",
+              "🐦"
+            ],
+            [
+              "Butterfly",
+              "Can Fly",
+              "🦋"
+            ],
+            [
+              "Penguin",
+              "Cannot Fly",
+              "🐧"
+            ],
+            [
+              "Dog",
+              "Cannot Fly",
+              "🐕"
+            ],
+            [
+              "Bee",
+              "Can Fly",
+              "🐝"
+            ],
+            [
+              "Elephant",
+              "Cannot Fly",
+              "🐘"
+            ]
+          ]
+        },
+        {
+          "title": "Plant vs. Animal",
+          "briefing": "Look for living plants and trees, then separate them from animals and insects.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Plants & Trees",
+            "Animals & Insects"
+          ],
+          "cards": [
+            [
+              "Oak Tree",
+              "Plants & Trees",
+              "🌳"
+            ],
+            [
+              "Fox",
+              "Animals & Insects",
+              "🦊"
+            ],
+            [
+              "Flower",
+              "Plants & Trees",
+              "🌼"
+            ],
+            [
+              "Bee",
+              "Animals & Insects",
+              "🐝"
+            ],
+            [
+              "Fern",
+              "Plants & Trees",
+              "🌿"
+            ],
+            [
+              "Frog",
+              "Animals & Insects",
+              "🐸"
+            ]
+          ]
+        },
+        {
+          "title": "Habitat Sorting",
+          "briefing": "Find where each animal belongs: hot desert, leafy forest, or blue ocean.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Desert",
+            "Forest",
+            "Ocean"
+          ],
+          "cards": [
+            [
+              "Camel",
+              "Desert",
+              "🐪"
+            ],
+            [
+              "Owl",
+              "Forest",
+              "🦉"
+            ],
+            [
+              "Shark",
+              "Ocean",
+              "🦈"
+            ],
+            [
+              "Fennec Fox",
+              "Desert",
+              "🦊"
+            ],
+            [
+              "Deer",
+              "Forest",
+              "🦌"
+            ],
+            [
+              "Whale",
+              "Ocean",
+              "🐋"
+            ]
+          ]
+        },
+        {
+          "title": "Diet Classification",
+          "briefing": "Sort plant-eaters into Herbivores and meat-eaters into Carnivores.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Herbivores",
+            "Carnivores"
+          ],
+          "cards": [
+            [
+              "Rabbit",
+              "Herbivores",
+              "🐇"
+            ],
+            [
+              "Lion",
+              "Carnivores",
+              "🦁"
+            ],
+            [
+              "Deer",
+              "Herbivores",
+              "🦌"
+            ],
+            [
+              "Wolf",
+              "Carnivores",
+              "🐺"
+            ],
+            [
+              "Giraffe",
+              "Herbivores",
+              "🦒"
+            ],
+            [
+              "Eagle",
+              "Carnivores",
+              "🦅"
+            ]
+          ]
+        },
+        {
+          "title": "Animal Covers",
+          "briefing": "What covers each animal: feathers, fur, or scales?",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Feathers",
+            "Fur",
+            "Scales"
+          ],
+          "cards": [
+            [
+              "Parrot",
+              "Feathers",
+              "🦜"
+            ],
+            [
+              "Bear",
+              "Fur",
+              "🐻"
+            ],
+            [
+              "Snake",
+              "Scales",
+              "🐍"
+            ],
+            [
+              "Duck",
+              "Feathers",
+              "🦆"
+            ],
+            [
+              "Fox",
+              "Fur",
+              "🦊"
+            ],
+            [
+              "Lizard",
+              "Scales",
+              "🦎"
+            ]
+          ]
+        },
+        {
+          "title": "Nocturnal vs. Diurnal",
+          "briefing": "Some animals are busy by day; others wake up at night. Sort by their active time.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Daytime",
+            "Nighttime"
+          ],
+          "cards": [
+            [
+              "Butterfly",
+              "Daytime",
+              "🦋"
+            ],
+            [
+              "Owl",
+              "Nighttime",
+              "🦉"
+            ],
+            [
+              "Squirrel",
+              "Daytime",
+              "🐿️"
+            ],
+            [
+              "Bat",
+              "Nighttime",
+              "🦇"
+            ],
+            [
+              "Bee",
+              "Daytime",
+              "🐝"
+            ],
+            [
+              "Raccoon",
+              "Nighttime",
+              "🦝"
+            ]
+          ]
+        },
+        {
+          "title": "Insect vs. Mammal",
+          "briefing": "Use the leg clues: insects and arachnids have six or eight legs; mammals here have four.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "6 or 8 Legs",
+            "4 Legs"
+          ],
+          "cards": [
+            [
+              "Ant",
+              "6 or 8 Legs",
+              "🐜"
+            ],
+            [
+              "Spider",
+              "6 or 8 Legs",
+              "🕷️"
+            ],
+            [
+              "Cat",
+              "4 Legs",
+              "🐈"
+            ],
+            [
+              "Beetle",
+              "6 or 8 Legs",
+              "🪲"
+            ],
+            [
+              "Horse",
+              "4 Legs",
+              "🐎"
+            ],
+            [
+              "Ladybug",
+              "6 or 8 Legs",
+              "🐞"
+            ]
+          ]
+        },
+        {
+          "title": "Baby vs. Adult",
+          "briefing": "Match each young animal and grown-up animal to its life stage box.",
+          "mechanic": "sorting",
+          "timer": 0,
+          "movementSpeed": 1,
+          "bins": [
+            "Baby Animals",
+            "Adult Animals"
+          ],
+          "cards": [
+            [
+              "Cub",
+              "Baby Animals",
+              "🐻"
+            ],
+            [
+              "Puppy",
+              "Baby Animals",
+              "🐶"
+            ],
+            [
+              "Adult Bear",
+              "Adult Animals",
+              "🐻"
+            ],
+            [
+              "Adult Dog",
+              "Adult Animals",
+              "🐕"
+            ],
+            [
+              "Calf",
+              "Baby Animals",
+              "🐮"
+            ],
+            [
+              "Cow",
+              "Adult Animals",
+              "🐄"
+            ]
+          ]
+        },
+        {
+          "title": "Camouflaged Creatures",
+          "briefing": "Some animals blend into the trail. Tap to spot each one, then drag it to its habitat.",
+          "mechanic": "camouflage",
+          "timer": 60,
+          "movementSpeed": 1,
+          "bins": [
+            "Forest",
+            "Ocean",
+            "Desert"
+          ],
+          "cards": [
+            [
+              "Green Frog",
+              "Forest",
+              "🐸"
+            ],
+            [
+              "Blue Fish",
+              "Ocean",
+              "🐟"
+            ],
+            [
+              "Sand Lizard",
+              "Desert",
+              "🦎"
+            ],
+            [
+              "Owl",
+              "Forest",
+              "🦉"
+            ],
+            [
+              "Turtle",
+              "Ocean",
+              "🐢"
+            ],
+            [
+              "Fennec Fox",
+              "Desert",
+              "🦊"
+            ]
+          ]
+        },
+        {
+          "title": "Changing Trail",
+          "briefing": "The Chaos Sprite swaps the Land and Water sides. Watch the labels and adapt!",
+          "mechanic": "changing-bin",
+          "timer": 65,
+          "movementSpeed": 1,
+          "bins": [
+            "Land",
+            "Water"
+          ],
+          "cards": [
+            [
+              "Lion",
+              "Land",
+              "🦁"
+            ],
+            [
+              "Dolphin",
+              "Water",
+              "🐬"
+            ],
+            [
+              "Bear",
+              "Land",
+              "🐻"
+            ],
+            [
+              "Whale",
+              "Water",
+              "🐋"
+            ],
+            [
+              "Deer",
+              "Land",
+              "🦌"
+            ],
+            [
+              "Octopus",
+              "Water",
+              "🐙"
+            ],
+            [
+              "Fox",
+              "Land",
+              "🦊"
+            ],
+            [
+              "Seal",
+              "Water",
+              "🦭"
+            ]
+          ]
+        },
+        {
+          "title": "Extreme Habitats",
+          "briefing": "Travel to four wild places: Arctic, Rainforest, Ocean Depth, and Savannah.",
+          "mechanic": "multi-category",
+          "timer": 65,
+          "movementSpeed": 1,
+          "bins": [
+            "Arctic",
+            "Rainforest",
+            "Ocean Depth",
+            "Savannah"
+          ],
+          "cards": [
+            [
+              "Polar Bear",
+              "Arctic",
+              "🐻‍❄️"
+            ],
+            [
+              "Toucan",
+              "Rainforest",
+              "🦜"
+            ],
+            [
+              "Anglerfish",
+              "Ocean Depth",
+              "🐟"
+            ],
+            [
+              "Lion",
+              "Savannah",
+              "🦁"
+            ],
+            [
+              "Arctic Fox",
+              "Arctic",
+              "🦊"
+            ],
+            [
+              "Sloth",
+              "Rainforest",
+              "🦥"
+            ],
+            [
+              "Giant Squid",
+              "Ocean Depth",
+              "🦑"
+            ],
+            [
+              "Giraffe",
+              "Savannah",
+              "🦒"
+            ]
+          ]
+        },
+        {
+          "title": "Nature Vault Boss",
+          "briefing": "Final vault test! Sort a rapid mix of animals and nature finds into their best group.",
+          "mechanic": "boss",
+          "timer": 45,
+          "movementSpeed": 1.6,
+          "strikes": 3,
+          "bins": [
+            "Mammals",
+            "Birds",
+            "Ocean Life",
+            "Plants"
+          ],
+          "cards": [
+            [
+              "Fox",
+              "Mammals",
+              "🦊"
+            ],
+            [
+              "Parrot",
+              "Birds",
+              "🦜"
+            ],
+            [
+              "Dolphin",
+              "Ocean Life",
+              "🐬"
+            ],
+            [
+              "Oak Tree",
+              "Plants",
+              "🌳"
+            ],
+            [
+              "Bear",
+              "Mammals",
+              "🐻"
+            ],
+            [
+              "Owl",
+              "Birds",
+              "🦉"
+            ],
+            [
+              "Octopus",
+              "Ocean Life",
+              "🐙"
+            ],
+            [
+              "Fern",
+              "Plants",
+              "🌿"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "shopPrices": {
+    "hintLens": 100,
+    "timeBubble": 75,
+    "shuffleBell": 100
+  }
+}
